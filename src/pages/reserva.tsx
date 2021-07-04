@@ -29,7 +29,7 @@ export default function Reserva() {
         
         <p>Saiba se é a pessoa certa que vai entrar no seu quarto, forneca uma pergunta secreta</p>
         <input placeholder="Ex: Qual era nosso lugar favorito? "/>
-        <p>forneca 4 opcoes</p>
+        <p>Forneca 4 opcoes</p>
         <form>
           <input placeholder="Ex: Biblioteca"/><div/>
           <input placeholder="Ex: Sala de aula "/><div/>
