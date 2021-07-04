@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Head from 'next/head'
+import Link from 'next/link'
 
 import Button from '../../components/Button'
 
@@ -25,6 +26,9 @@ export default function Reserva() {
       setPageDica(false)
       setPageQuestion(true)
     }
+    if(pageQuestion){
+
+    }    
   }
 
   return (
@@ -85,9 +89,19 @@ export default function Reserva() {
           }
         </main>
         <footer>
-          <Button onClick={goToNextPage}>
-            {pageQuestion ? 'Finalizar Reserva' : 'Próximo'}
-          </Button>
+          
+            {pageQuestion ?
+            <Link href="/quarto/chat">
+              <Button>
+                Finalizar Reserva 
+              </Button>
+            </Link>
+            : 
+            <Button onClick={goToNextPage}>
+              Próximo
+            </Button>
+            }
+          
         </footer>
       </div>
     </>

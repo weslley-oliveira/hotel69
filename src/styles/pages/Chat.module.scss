@@ -1,0 +1,135 @@
+.container {
+
+  background-color: #E5DDD5;
+  header {
+    min-height: 70px;
+    background:  #585666;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    span {
+          Font-size: 2rem;
+          background: #C21C1C;        
+          height: 70px;
+          padding-left: 15px;
+          padding-right: 15px;
+          display: flex;
+          align-items: center;
+
+    }
+
+    p {
+      padding-left: 15px;
+      max-width: 60%;
+      font-weight: lighter;
+      font-size: 1.8rem;
+      > strong{
+        color: #ccc;
+        font-weight: lighter;
+        font-size: 1rem;    
+      }
+    }
+   
+  }
+
+  main {
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding: 10px;
+
+    p {
+      font-weight: lighter;
+      font-size: 1.8rem;
+      line-height: 30px;
+      max-width: 290px;
+      padding-bottom: 1rem;
+      text-align: center;
+    }
+
+    input {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      max-width: 350px;
+      width:80%;
+      height: 60px;
+      border-radius: 5px;
+      border: solid 1px #585666;
+      background: white;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+  
+    textarea {
+      margin-top: 10px;
+      font-size: 1.8rem;
+      text-align: center;
+      width: 295px;
+      padding: 10px;
+      border-radius: 5px;
+      border: solid 1px #585666;
+    }
+
+    form {
+      display: grid;
+      gap: 5px;
+      grid-template-columns: 90% 10%;      
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      input{
+        width: 100%;
+        height: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;                
+      }
+      div {
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        border: solid 1px #585666;
+      }
+      p{font-size: 1rem;}
+    }
+  }
+
+  footer {
+    position: absolute;
+    bottom: 10px;
+    
+    align-items: center;  
+    width: 100%;    
+
+    form {
+      display: flex;
+      gap: 5px;
+      justify-content: space-between;
+      padding: 5px;
+      input {
+        padding:10px;
+        font-size: 1.5rem;
+        width: 90%;
+        height: 35px;
+        border-radius: 50px; 
+        border: none;  
+      }  
+
+      button {
+        background-color: #C21C1C;
+        color: white;
+        height: 35px;
+        width: 35px;
+        border-radius: 100%;    
+        border: none;  
+      }
+
+    }
+  }
+
+}
