@@ -25,8 +25,8 @@ export default function Reserva() {
         <input placeholder="Ex: Suíte Presidencial"/> */}
         
         {/* <p>Forneça um dica para que apenas seu convidado possa te reconhecer</p>
-        <textarea placeholder="Ex: Costumávamos nos encontrar no pátio"/> */}
-        
+        <textarea placeholder="Ex: Costumávamos nos encontrar no pátio"/>
+         */}
         <p>Saiba se é a pessoa certa que vai entrar no seu quarto, forneca uma pergunta secreta</p>
         <input placeholder="Ex: Qual era nosso lugar favorito? "/>
         <p>Forneca 4 opcoes</p>

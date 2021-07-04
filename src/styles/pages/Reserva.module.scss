@@ -21,7 +21,7 @@
   }
 
   main {
-    
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,8 +41,8 @@
     input {
       margin-top: 5px;
       margin-bottom: 10px;
-      min-width: 295px;
-      width:100%;
+      max-width: 350px;
+      width:80%;
       height: 60px;
       border-radius: 5px;
       border: solid 1px #585666;
