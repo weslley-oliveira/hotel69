@@ -1,7 +1,6 @@
 import '../styles/globals.scss'
 import '../styles/pages/login.scss'
 
-
 import Head from 'next/head'
 function MyApp({ Component, pageProps }) {  
   return (
