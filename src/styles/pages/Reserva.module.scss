@@ -1,7 +1,8 @@
 .container {
   
   display: grid;
-  grid-template-rows: 25vh 55vh 20vh;  
+  grid-template-rows: 25vh 55vh 20vh; 
+  
 
   header {
     background:  radial-gradient(58.93% 69.94% at 50% 100%, rgba(255, 100, 100, 0.59) 0%, #FF6464 50%, #C21C1C 100%);
@@ -21,6 +22,8 @@
   }
 
   main {
+
+    min-height: 400px; 
     display: flex;
     justify-content: center;
     align-items: center;
