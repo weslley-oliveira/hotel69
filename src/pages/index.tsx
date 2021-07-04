@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
+
 import Button from '../components/Button'
 
 import mordomoImg from '../assets/images/mordomo.png'
@@ -30,9 +32,11 @@ export default function Home() {
             <h3>Convide alguém para conversar na privacidade de um quarto</h3>
           </div>
           <div>
-            <Button>
-              Reservar um quarto
+          <Link href="/quarto/nome-do-quarto">
+            <Button>              
+                Reservar um quarto              
             </Button>
+            </Link>
             <div className="separator">Já tem um quarto?</div>
             <Button SecondType>
               Check In
