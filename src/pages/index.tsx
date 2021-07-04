@@ -1,13 +1,46 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import Button from '../components/Button'
+
+import mordomoImg from '../assets/images/mordomo.png'
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Head>
         <title>Hotel 69</title>
       </Head>
-      <h1>Seja bem vindo ao Hotel 69</h1>
-      <h2>Convide alguém para conversar na privacidade de um quarto</h2>       
-    </main>
+
+      <div className="container">
+        <header>
+          <div>
+            <Image
+              src={mordomoImg}
+              alt="Illustration Mordomo"
+              width={200}
+              height={200}
+            />
+          </div>
+        </header>
+
+        <main>
+          <div>      
+            <h2>Bem vindo ao</h2>
+            <h1 className="hotel69">Hotel 69</h1>
+            <h3>Convide alguém para conversar na privacidade de um quarto</h3>
+          </div>
+          <div>
+            <Button>
+              Reservar um quarto
+            </Button>
+            <div className="separator">Já tem um quarto?</div>
+            <Button SecondType>
+              Check In
+            </Button>
+          </div>   
+
+        </main>
+      </div>      
+    </>
   )
 }
