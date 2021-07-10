@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hotel 69</title>
+        <title>Hotel 69 | Teste</title>
       </Head>
 
       <div className="container">
